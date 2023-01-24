@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    gap: 10rem;
+}
+
+header > section.menu {
+    font-size: 14px;
+    width: 30%;
+}
+
+.mujerhombre {
+    margin-bottom: 1rem;
+    font-size: 11px;
+}
+
+.lista > li {
+    margin-top: 0.5rem;
+    
+}
+
+.promociones {
+    color:darkorange;
+}
+
+header > section.logo {
+    
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+   margin-bottom: 5px; 
+}
+
+.logo > ul {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.logo > ul > li > a {
+    margin: 2px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.filtros {
+    font-size: 10px;
+    display: flex;
+    margin-top:0.6rem;
+}
+
+.imagenes {
+    display: flex;
+    margin-left:12rem;
+}
+
+.filtros > li > a {
+    margin: 2px;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+
